@@ -67,7 +67,7 @@ case ${osinfo} in
     echo
     echo '[*] Installing Python Modules'
     apt install -y python3-fuzzywuzzy python3-pyvirtualdisplay  python3-netaddr python3-levenshtein
-    python3 -m pip install selenium==4.9.1
+    python3 -m pip install --break-system-packages selenium==4.9.1
     echo
     cd ../bin/
     MACHINE_TYPE=`uname -m`
@@ -101,11 +101,11 @@ case ${osinfo} in
     apt-get install -y cmake python3 xvfb python3-pip python3-netaddr python3-dev firefox-esr
     echo
     echo '[*] Installing Python Modules'
-    python3 -m pip install fuzzywuzzy
-    python3 -m pip install selenium==4.9.1
-    python3 -m pip install python-Levenshtein
-    python3 -m pip install pyvirtualdisplay
-    python3 -m pip install netaddr
+    python3 -m pip install --break-system-packages fuzzywuzzy
+    python3 -m pip install --break-system-packages selenium==4.9.1
+    python3 -m pip install --break-system-packages python-Levenshtein
+    python3 -m pip install --break-system-packages pyvirtualdisplay
+    python3 -m pip install --break-system-packages netaddr
     echo
     cd ../bin/
     MACHINE_TYPE=`uname -m`
@@ -139,11 +139,11 @@ case ${osinfo} in
     apt-get install -y cmake python3 xvfb python3-pip python3-netaddr python3-dev firefox-esr
     echo
     echo '[*] Installing Python Modules'
-    python3 -m pip install fuzzywuzzy
-    python3 -m pip install selenium==4.9.1
-    python3 -m pip install python-Levenshtein
-    python3 -m pip install pyvirtualdisplay
-    python3 -m pip install netaddr
+    python3 -m pip install --break-system-packages fuzzywuzzy
+    python3 -m pip install --break-system-packages selenium==4.9.1
+    python3 -m pip install --break-system-packages python-Levenshtein
+    python3 -m pip install --break-system-packages pyvirtualdisplay
+    python3 -m pip install --break-system-packages netaddr
     echo
     cd ../bin/
     MACHINE_TYPE=`uname -m`
@@ -177,11 +177,11 @@ case ${osinfo} in
     apt-get install -y cmake python3 xvfb python3-pip python3-netaddr python3-dev firefox-esr
     echo
     echo '[*] Installing Python Modules'
-    python3 -m pip install fuzzywuzzy
-    python3 -m pip install selenium==4.9.1
-    python3 -m pip install python-Levenshtein
-    python3 -m pip install pyvirtualdisplay
-    python3 -m pip install netaddr
+    python3 -m pip install --break-system-packages fuzzywuzzy
+    python3 -m pip install --break-system-packages selenium==4.9.1
+    python3 -m pip install --break-system-packages python-Levenshtein
+    python3 -m pip install --break-system-packages pyvirtualdisplay
+    python3 -m pip install --break-system-packages netaddr
     echo
     cd ../bin/
     MACHINE_TYPE=`uname -m`
@@ -216,11 +216,11 @@ case ${osinfo} in
     pip3 install --upgrade pip
     echo
     echo '[*] Installing Python Modules'
-    python3 -m pip install fuzzywuzzy
-    python3 -m pip install selenium==4.9.1
-    python3 -m pip install python-Levenshtein
-    python3 -m pip install pyvirtualdisplay
-    python3 -m pip install netaddr
+    python3 -m pip install --break-system-packages fuzzywuzzy
+    python3 -m pip install --break-system-packages selenium==4.9.1
+    python3 -m pip install --break-system-packages python-Levenshtein
+    python3 -m pip install --break-system-packages pyvirtualdisplay
+    python3 -m pip install --break-system-packages netaddr
     echo
     cd ../bin/
     MACHINE_TYPE=`uname -m`
@@ -256,11 +256,11 @@ case ${osinfo} in
     done
     echo
     echo '[*] Installing Python Modules'
-    python3 -m pip install fuzzywuzzy
-    python3 -m pip install selenium==4.9.1
-    python3 -m pip install python-Levenshtein
-    python3 -m pip install pyvirtualdisplay
-    python3 -m pip install netaddr
+    python3 -m pip install --break-system-packages fuzzywuzzy
+    python3 -m pip install --break-system-packages selenium==4.9.1
+    python3 -m pip install --break-system-packages python-Levenshtein
+    python3 -m pip install --break-system-packages pyvirtualdisplay
+    python3 -m pip install --break-system-packages netaddr
     echo
     cd ../bin/
     MACHINE_TYPE=`uname -m`
@@ -284,11 +284,11 @@ case ${osinfo} in
     apk add cmake python3 xvfb py-pip py-netaddr python3-dev firefox
     echo
     echo '[*] Installing Python Modules'
-    python3 -m pip install fuzzywuzzy
-    python3 -m pip install selenium==4.9.1
-    python3 -m pip install python-Levenshtein
-    python3 -m pip install pyvirtualdisplay
-    python3 -m pip install netaddr
+    python3 -m pip install --break-system-packages fuzzywuzzy
+    python3 -m pip install --break-system-packages selenium==4.9.1
+    python3 -m pip install --break-system-packages python-Levenshtein
+    python3 -m pip install --break-system-packages pyvirtualdisplay
+    python3 -m pip install --break-system-packages netaddr
     echo
     # from https://stackoverflow.com/questions/58738920/running-geckodriver-in-an-alpine-docker-container
     # Get all the prereqs
@@ -330,11 +330,11 @@ case ${osinfo} in
     done
     echo
     echo '[*] Installing Python Modules'
-    python3 -m pip install fuzzywuzzy
-    python3 -m pip install selenium==4.9.1
-    python3 -m pip install python-Levenshtein
-    python3 -m pip install pyvirtualdisplay
-    python3 -m pip install netaddr
+    python3 -m pip install --break-system-packages fuzzywuzzy
+    python3 -m pip install --break-system-packages selenium==4.9.1
+    python3 -m pip install --break-system-packages python-Levenshtein
+    python3 -m pip install --break-system-packages pyvirtualdisplay
+    python3 -m pip install --break-system-packages netaddr
     echo
     cd ../bin/
     MACHINE_TYPE=`uname -m`
@@ -381,10 +381,10 @@ case ${osinfo} in
     done
     echo
     echo '[*] Installing Python Modules'
-    python3 -m pip install fuzzywuzzy
-    python3 -m pip install selenium==4.9.1
-    python3 -m pip install python-Levenshtein
-    python3 -m pip install pyvirtualdisplay
+    python3 -m pip install --break-system-packages fuzzywuzzy
+    python3 -m pip install --break-system-packages selenium==4.9.1
+    python3 -m pip install --break-system-packages python-Levenshtein
+    python3 -m pip install --break-system-packages pyvirtualdisplay
     echo
     cd ../bin/
     MACHINE_TYPE=`uname -m`
@@ -426,11 +426,11 @@ case ${osinfo} in
       pip3 install --upgrade pip
       echo
       echo '[*] Installing Python Modules'
-      python3 -m pip install fuzzywuzzy
-      python3 -m pip install selenium==4.9.1
-      python3 -m pip install python-Levenshtein
-      python3 -m pip install pyvirtualdisplay
-      python3 -m pip install netaddr
+      python3 -m pip install --break-system-packages fuzzywuzzy
+      python3 -m pip install --break-system-packages selenium==4.9.1
+      python3 -m pip install --break-system-packages python-Levenshtein
+      python3 -m pip install --break-system-packages pyvirtualdisplay
+      python3 -m pip install --break-system-packages netaddr
       echo
       cd ../bin/
       MACHINE_TYPE=`uname -m`
